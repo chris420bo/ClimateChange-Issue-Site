@@ -10,42 +10,42 @@ body {
 
 .container {
     background-color: rgb(240,250,255);
-    padding: 20px 0;
+    padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
-.content-box {
-    background-color: rgb(225,243,251);
+.image-item {
+    background-color: #FFFFFF;
     border-radius: 25px;
-    width: 30%;
+    width: fit-content;
     height: fit-content;
     padding: 40px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.about {
-    margin: 60px;
+.color1 {
+    background-color: #fcf4f0;
 }
 
-.mission {
-    margin: 60px;
+.image-item .imageL {
+    width: auto;
+    height: 475px;
 }
 
-.contact {
-    margin: 0 60px 60px;
+.image-item .imageS {
+    width: auto;
+    height: 575px;
 }
 
-.content-box h1 {
-    color: #89CFF0;
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-
-.content-box p {
-    font-size: 18px;
+.image-label {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-size: 24px;
 }
